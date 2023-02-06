@@ -1,0 +1,94 @@
+h1{
+	text-align:center;
+	border:2px solid green;
+	background-color:blue;
+	color:white;
+}
+h2{
+	text-decoration:underline;
+}
+/*this is visible*/
+.visible{
+	width:200px;
+	height:100px;
+	overflow:visible;
+	border:3px solid blue;
+	margin-left:50px;
+	
+}
+/*this is hidden*/
+.hidden{
+	width:200px;
+	height:100px;
+	overflow:hidden;
+	border:3px solid blue;
+	margin-left:362px;
+	background-color:aqua;
+}
+/*this is overflow-auto,scroll*/
+.scroll{
+	background-color:green;
+	width:200px;
+	height:100px;
+	border:3px solid blue;
+	margin-left:669px;
+	margin-top:-100px;
+	overflow:scroll;
+}
+.auto{
+	background-color:green;
+	width:200px;
+	height:100px;
+	border:3px solid blue;
+	margin-left:999px;
+	margin-top:-100px;
+	overflow:auto;
+}
+.x{
+	background-color:green;
+	width:200px;
+	height:200px;
+	border:3px solid blue;
+	margin-left:135pxpx;
+	margin-top:-14px;
+	overflow-x:scroll;
+	text-align:center;
+}
+.img1:hover{
+	height:80%;
+	width:80%;
+}
+/*blur*/
+.img2:hover{
+	filter:blur(5px);
+	width:auto;
+}
+/*opacity*/
+.img3:hover{
+	filter:hue-rotate(180deg);
+}
+/*this is opacity*/
+.img4:hover{
+	filter:opacity(80%);
+	margin:0 auto;
+	height:20;
+	width:20;
+}
+.bright:hover{
+    filter: brightness(3);
+	height:20%;
+	width:20%;
+}
+.contrast:hover{
+	filter: contrast(5);
+}
+.grayscale:hover{
+	filter:grayscale(200%);
+	height:30%;
+	width:30%;
+}
+.invert:hover{
+	filter:invert(300%);
+	height:30%;
+	width:30%;
+}
